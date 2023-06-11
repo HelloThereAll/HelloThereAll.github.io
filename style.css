@@ -1,5 +1,5 @@
 body{
-margin:44px;
+margin:64px;
 text-align: center;
 font-family:"Georgia";
 font-size:32px;
@@ -8,7 +8,7 @@ line-height:1.5;
 background:#000000;
 }
 h2{
-margin:0;
+margin:64px;
 text-align: center;
 font-family:"Georgia";
 font-size:32px;
@@ -31,4 +31,21 @@ white-space: nowrap;
 background:#121212;
 color:#9A9A9A;
 white-space: nowrap;
+}
+@media (max-width: 1000px){
+body{
+margin:32px;
+font-size:24px;
+line-height:1.15;
+}
+h2{
+margin:32px;
+font-size:24px;
+line-height:1.15;
+}
+.button{
+border-radius:3px;
+padding:5px 9px;
+margin-top:12px;
+}
 }
