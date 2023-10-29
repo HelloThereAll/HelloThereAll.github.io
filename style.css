@@ -7,6 +7,10 @@ color:#FFFFFF;
 line-height:1.5;
 background:#000000;
 }
+p{
+text-align: justify;
+text-indent: 64px;
+}
 h2{
 margin:64px;
 text-align: center;
@@ -17,6 +21,7 @@ color:#AAAAAA;
 background:#222222;
 }
 .button{
+text-align: center;
 color:#AAAAAA;
 border:#888888 0px solid;
 border-radius:3px;
