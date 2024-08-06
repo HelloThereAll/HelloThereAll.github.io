@@ -62,12 +62,13 @@ a{
 }
 
 a:hover{
-	background-color:#cceeff;
-	border-color:#aaccee;
+	background-color:#cef;
+	border-color: #ace #8ac #8ac #ace;
 }
 
 a:active{
-	border-style:inset;
+	background-color:#cef;
+	border-color: #8ac #ace #ace #8ac;
 }
 
 footer{
