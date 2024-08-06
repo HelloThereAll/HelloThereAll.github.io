@@ -1,80 +1,41 @@
-body{
-	text-align: center;
-	font-family:"Garamond";
-	font-size:32px;
-	color:#000000;
-	line-height:1.5;
-	background:#FED;
+body{background-color:#fec;margin:0px;padding:0px;font-size:24px;}
+.page{margin:32px;padding:32px;text-align:center;font-family:serif;color:#000;background-color:#fff;}
+
+h1{font-size:32px;}
+h2{font-size:64px;line-height:1.15;}
+h2{animation-iteration-count:infinite;animation-duration:3s;animation-name:lmaoxd;animation-timing-function:linear;}
+h3{font-weight:normal;font-size:24px;}
+h4{font-size:24px;}
+p{text-align:justify;text-indent:32px;}
+@keyframes lmaoxd {000%{transform:rotateY(0deg);}050%{transform:rotateY(180deg);}100%{transform:rotateY(0deg);}}
+
+a{
+	text-decoration:none;
+	color:#000;
+	background-color:#fff;
+	border-color:еее;
+	font-size:24px;
+	font-family:serif;
+	border-style:outset;
+	line-height:1;
+	margin: 1px;
 }
-.qfix{
-	padding:32px 32px;
+a:hover{
+	background-color:#cef;
+	border-color:ace;
+}
+a:active{
+	border-style:inset;
 }
 
-p{
-	text-align: justify;
-	text-indent: 64px;
-	padding:0px 0px 16px 0px;
-}
-h1{
-	text-align: center;
-	font-family:"Garamond";
-	font-size:64px;
-}
-h2{
-	text-align: center;
-	font-family:"Garamond";
-	font-size:32px;
-	line-height:1.5;
-	color:#111;
-	background:#DEF;
-	padding:0px 0px;
-}
-.insula{
-	color:#000;
-	background:#FFF;
-	text-decoration: none;
-	padding:32px 32px;
-}
-.button{
-	text-align: center;
-	color:#000;
-	border:#AAA 0px solid;
-	border-radius:3px;
-	padding:8px 12px;
-	margin-top:16px;
-	background:#EEE;
-	text-decoration: none;
-	line-height:2;
-	white-space: nowrap;
-}
-.button:hover{
-	background:#DDD;
-	color:#000;
-	white-space: nowrap;
-}
+footer{padding:16px;background-color:#222;color:#fff;position:fixed;width:calc(100% - 32px);bottom:0px;border-style:none;}
 @media (max-width: 1000px){
-	
-	body{
-		font-size:24px;
-		line-height:1;
-		background:#FFF;
-	}
-	h1{
-		margin:0px;
-		font-size:48px;
-		line-height:1.15;
-	}
-	h2{
-		margin:0px;
-		font-size:24px;
-		line-height:1.15;
-	}
-	.insula{
-		margin:0px;
-		width: 100%;
-		padding:0px 0px;
-	}
-	.qfix{
-	padding:16px 0px;
-	}
+body{font-size:16px;}
+.page{margin:0px;}
+h1{font-size:24px;}
+h2{font-size:32px;}
+h3{font-size:16px;}
+h4{font-size:16px;}
+button{font-size:16px;margin: 0px;}
+footer{padding:16px;width:100%;}
 }
